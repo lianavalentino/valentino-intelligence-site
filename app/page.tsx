@@ -36,7 +36,10 @@ const built: [string, string][] = [
 const steps: [string, string][] = [
   ["Fit call", "Thirty minutes. You tell me the one thing you’d like to stop doing by hand."],
   ["Two-week plan", "I look at how the work gets done today and hand you a short list of what’s worth automating first."],
-  ["Build and handover", "I build it. Someone on your team approves before it acts. When it’s done, you own it."],
+  [
+    "Build, handover, and support",
+    "I build it. Someone on your team approves it before it goes live. When it’s done, you own it, and a job you used to do by hand now runs on autopilot. You decide whether I stay on for enhancements and the next thing.",
+  ],
 ];
 
 export default function Home() {

@@ -18,7 +18,7 @@ valentinointelligence@gmail.com
 ## How it works
 1. **Fit call.** Thirty minutes. You tell me the one thing you'd like to stop doing by hand.
 2. **Two-week plan.** I look at how the work gets done today and hand you a short list of what's worth automating first.
-3. **Build and handover.** I build it. Someone on your team approves before it acts. When it's done, you own it.
+3. **Build, handover, and support.** I build it. Someone on your team approves it before it goes live. When it's done, you own it, and a job you used to do by hand now runs on autopilot. You decide whether I stay on for enhancements and the next thing.
 
 ## Start with an email
 Tell me what you'd like to stop doing by hand. valentinointelligence@gmail.com
