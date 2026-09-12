@@ -16,9 +16,9 @@ const zillaSlab = Zilla_Slab({
 });
 
 export const metadata: Metadata = {
-  title: "Practical AI and automation for small businesses — Valentino Intelligence",
+  title: "Valentino Intelligence",
   description:
-    "Find out where automation pays off in your business. A two-week, fixed-price plan for owners of 5–75 person businesses, from Liana Valentino in Beaverton, Oregon.",
+    "AI and automation for small businesses. I build the systems that do your busywork; you keep approving.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

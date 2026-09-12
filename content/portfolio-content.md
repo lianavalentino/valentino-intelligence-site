@@ -7,7 +7,7 @@ Liana Valentino is a lead data scientist and applied AI systems builder with a d
 - **Name:** Liana Valentino
 - **Title:** Founder, Valentino Intelligence LLC — AI Systems Consultant
 - **Location:** Beaverton, OR (remote-first)
-- **Email:** valentinoliana@gmail.com
+- **Email:** valentinointelligence@gmail.com
 - **LinkedIn:** https://linkedin.com/in/lianavalentino
 - **GitHub:** https://github.com/lianavalentino
 

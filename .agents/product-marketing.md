@@ -232,7 +232,7 @@ Secondary fits: professional services firms (accounting, law, agencies) drowning
 ## Goals
 **Business goal:** Land 2–3 paying Discovery Sprints in the next quarter from small-business owners, converting at least one to a retainer or build. Establish the site as a credible, shareable "who is this person and what will it cost me" page for referrals and inbound.
 
-**Conversion action:** Book the free fit call. Until a booking link exists, the CTA is an email to valentinoliana@gmail.com with a one-line prompt ("Tell me the one thing you'd love to stop doing by hand"). Secondary: read the Discovery Sprint page and understand the price before the call.
+**Conversion action:** Book the free fit call. Until a booking link exists, the CTA is an email to valentinointelligence@gmail.com with a one-line prompt ("Tell me the one thing you'd love to stop doing by hand"). Secondary: read the Discovery Sprint page and understand the price before the call.
 
 **Current metrics:** Site launched 2026-09-11, no analytics yet. One inbound lead (LinkedIn, manufacturer CEO) reached fit-call stage; one restaurant engagement live; two content-ops engagements in progress. Baseline for everything is zero — first measurable goal is fit calls booked per month.
 

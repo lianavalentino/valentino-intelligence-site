@@ -6,6 +6,8 @@
 
 **State:** scaffolded 2026-09-11 as a resume-style page; repositioned same day for small-business owners (offer-led, plain language).
 
+**Copy:** minimal version (hero + 6 outcome cards + 3 steps + email), no prices, no client names on the page. Contact email valentinointelligence@gmail.com.
+
 **Source of truth for copy and positioning:**
 - `.agents/product-marketing.md` — positioning, customer language, words to avoid, proof guardrails. Other marketing skills read this.
 - `docs/offer.md` — the Two-Week Automation Plan offer (guarantee, bonuses, price, scarcity rule) and site copy.
