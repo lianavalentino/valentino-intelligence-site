@@ -2,8 +2,9 @@ const EMAIL = "valentinointelligence@gmail.com";
 const MAILTO = `mailto:${EMAIL}?subject=Fit%20call`;
 
 const link = "text-ink underline decoration-accent underline-offset-4";
-const h2 = "font-display text-h2 font-bold sm:text-h2-lg";
+const h2 = "font-mono text-small uppercase tracking-widest text-muted";
 const small = "text-small text-muted sm:text-small-lg";
+const mono = "font-mono text-small text-muted tracking-tight";
 
 const built: [string, string][] = [
   [
@@ -43,12 +44,12 @@ export default function Home() {
     <div className="mx-auto max-w-[44rem] px-5 sm:px-8">
       <header className="flex items-baseline justify-between gap-4 py-6">
         <p className="font-display text-h3 font-semibold">Valentino Intelligence</p>
-        <p className={`${small} shrink-0`}>Portland, Oregon</p>
+        <p className={`${mono} shrink-0`}>Portland, Oregon</p>
       </header>
 
       <main className="flex flex-col gap-16 py-10 sm:gap-24 sm:py-16">
         <section className="flex flex-col gap-5">
-          <h1 className="font-display text-h1 font-bold sm:text-h1-lg">
+          <h1 className="font-display text-h1 font-semibold tracking-tight sm:text-h1-lg">
             I build the systems that do your busywork.
           </h1>
           <p className="text-lg">
@@ -99,7 +100,7 @@ export default function Home() {
         </section>
       </main>
 
-      <footer className={`${small} flex flex-wrap items-center justify-between gap-4 border-t border-rule py-8`}>
+      <footer className={`${mono} flex flex-wrap items-center justify-between gap-4 border-t border-rule py-8`}>
         <span>Valentino Intelligence LLC</span>
         <span className="flex gap-5">
           <a href="https://linkedin.com/in/lianavalentino" className={link}>

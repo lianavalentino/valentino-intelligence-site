@@ -40,8 +40,9 @@
 }
 
 @theme inline {
-  --font-sans: var(--font-public-sans), system-ui, "Helvetica Neue", Arial, sans-serif;
-  --font-display: var(--font-zilla-slab), Rockwell, "Roboto Slab", Georgia, serif;
+  --font-sans: var(--font-geist), system-ui, "Helvetica Neue", Arial, sans-serif;
+  --font-display: var(--font-geist), system-ui, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, Menlo, monospace;
 }
 
 @layer base {

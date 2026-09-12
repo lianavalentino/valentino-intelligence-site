@@ -1,17 +1,16 @@
 import type { Metadata } from "next";
-import { Public_Sans, Zilla_Slab } from "next/font/google";
+import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-const publicSans = Public_Sans({
-  variable: "--font-public-sans",
+const geist = Geist({
+  variable: "--font-geist",
   subsets: ["latin"],
   display: "swap",
 });
 
-const zillaSlab = Zilla_Slab({
-  variable: "--font-zilla-slab",
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
   subsets: ["latin"],
-  weight: ["600", "700"],
   display: "swap",
 });
 
@@ -25,7 +24,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
-      className={`${publicSans.variable} ${zillaSlab.variable} h-full antialiased`}
+      className={`${geist.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-paper text-ink font-sans text-body sm:text-body-lg">
         {children}
