@@ -33,27 +33,27 @@ No other colors. No greys from the Tailwind palette. No shadows anywhere. No gra
 
 ### Type
 
-Two families, clearly distinct: a slab for headings, a plain grotesque for reading.
+Two families from one designer: Geist for everything read, Geist Mono for section labels.
+(Changed from Zilla Slab / Public Sans on 2026-09-14; the old pair is superseded.)
 
-| Role    | Family        | next/font name | Weights   | Fallback stack |
-|---------|---------------|----------------|-----------|----------------|
-| display | Zilla Slab    | `Zilla_Slab`   | 600, 700  | Rockwell, "Roboto Slab", Georgia, serif |
-| body    | Public Sans   | `Public_Sans`  | variable (use 400, 600) | system-ui, "Helvetica Neue", Arial, sans-serif |
+| Role    | Family     | next/font name | Weights   | Fallback stack |
+|---------|------------|----------------|-----------|----------------|
+| sans + display | Geist | `Geist`   | variable (use 400, 600) | system-ui, "Helvetica Neue", Arial, sans-serif |
+| mono    | Geist Mono | `Geist_Mono`   | variable (use 400) | ui-monospace, Menlo, monospace |
 
-Why: Zilla Slab is a sturdy slab, the family of type on shop signs, catalogs and job tickets, without
-the typewriter cliché. Public Sans is the USWDS face: built to be read on a phone by people who did
-not choose to read it. Neither is Geist, Inter, or a high-contrast display serif.
+Section labels (h2) are Geist Mono, small, uppercase, tracked, `muted`. This overrides the mono and
+tracked-label ban in trait 5 below.
 
-Type scale (mobile / ≥sm). Body-first; headings are set in Zilla Slab 700, everything else Public Sans.
+Type scale (mobile / ≥sm). Body-first; headings are Geist 600, section labels Geist Mono 400.
 
 | Element | Mobile           | ≥sm              | Notes |
 |---------|------------------|------------------|-------|
-| h1      | 34px / 1.15      | 52px / 1.08      | Zilla 700, letter-spacing -0.01em, max 14 words |
-| h2      | 26px / 1.2       | 30px / 1.2       | Zilla 700 |
-| h3      | 20px / 1.3       | 22px / 1.3       | Zilla 600 |
-| body    | 17px / 1.55      | 18px / 1.6       | Public Sans 400 |
-| small   | 14px / 1.5       | 15px / 1.5       | Public Sans 400, `muted` |
-| price   | 26px / 1         | 30px / 1         | Public Sans 600, `font-variant-numeric: tabular-nums` |
+| h1      | 34px / 1.15      | 52px / 1.08      | Geist 600, letter-spacing -0.01em, max 14 words |
+| h2      | 14px / 1.5       | 14px / 1.5       | Geist Mono 400, uppercase, `tracking-widest`, `muted` |
+| h3      | 20px / 1.3       | 22px / 1.3       | Geist 600 |
+| body    | 17px / 1.55      | 18px / 1.6       | Geist 400 |
+| small   | 14px / 1.5       | 15px / 1.5       | Geist 400, `muted` |
+| price   | 26px / 1         | 30px / 1         | Geist 600, `font-variant-numeric: tabular-nums` (unused; no prices on the page) |
 
 rem base is 16px; express the above as rem (17px = 1.0625rem, 18px = 1.125rem, etc).
 
@@ -282,8 +282,9 @@ document into a landing page).
 }
 
 @theme inline {
-  --font-sans: var(--font-public-sans), system-ui, "Helvetica Neue", Arial, sans-serif;
-  --font-display: var(--font-zilla-slab), Rockwell, "Roboto Slab", Georgia, serif;
+  --font-sans: var(--font-geist), system-ui, "Helvetica Neue", Arial, sans-serif;
+  --font-display: var(--font-geist), system-ui, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, Menlo, monospace;
 }
 ```
 
@@ -293,23 +294,20 @@ border-rule border-margin font-sans font-display`.
 ### `app/layout.tsx` font imports
 
 ```ts
-import { Public_Sans, Zilla_Slab } from "next/font/google";
+import { Geist, Geist_Mono } from "next/font/google";
 
-const publicSans = Public_Sans({
-  variable: "--font-public-sans",
+const geist = Geist({
+  variable: "--font-geist",
   subsets: ["latin"],
   display: "swap",
 });
 
-const zillaSlab = Zilla_Slab({
-  variable: "--font-zilla-slab",
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
   subsets: ["latin"],
-  weight: ["600", "700"],
   display: "swap",
 });
 
-// <html className={`${publicSans.variable} ${zillaSlab.variable} h-full antialiased`}>
-// <body className="min-h-full flex flex-col bg-paper text-ink font-sans">
+// <html className={`${geist.variable} ${geistMono.variable} h-full antialiased`}>
+// <body className="min-h-full flex flex-col bg-paper text-ink font-sans text-body sm:text-body-lg">
 ```
-
-Delete the Geist imports and the `--font-geist-*` / `--font-mono` lines; nothing on the page uses mono.
