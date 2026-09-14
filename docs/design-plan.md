@@ -5,6 +5,10 @@ Written 2026-09-11. First pass only (plan + self-review). Builder agent implemen
 Reference for the look: a well-made quote sheet from a local shop. Ruled paper, ballpoint-blue ink,
 one green stamp. Not a SaaS page, not a magazine.
 
+## References
+
+- https://eriosoftware.com/work — visual reference to pull from when building the site.
+
 ## 1. Tokens
 
 ### Color

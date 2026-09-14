@@ -1,8 +1,8 @@
-// Hardcoded sample data for the CleanMark Labels portal prototype. No backend.
+// Hardcoded sample data for the Northwind Labels portal prototype. No backend.
 
 export const client = {
-  name: "CleanMark Labels",
-  contact: "David Baker",
+  name: "Northwind Labels",
+  contact: "Dana Whitfield",
   consultant: "Liana Valentino",
 };
 
@@ -47,12 +47,12 @@ export const quickLinks = [
   { label: "Invoices", href: "/portal/billing" },
 ];
 
-// --- Intake (pre-filled with CleanMark sample answers) ---
+// --- Intake (pre-filled with Northwind sample answers) ---
 
 export const intake = {
   company: {
-    companyName: "CleanMark Labels, Inc.",
-    contactNameTitle: "David Baker, Operations Director",
+    companyName: "Northwind Labels, Inc.",
+    contactNameTitle: "Dana Whitfield, Operations Director",
     industry:
       "Custom pressure-sensitive label manufacturing for food, beverage, and industrial packaging customers.",
     companySize: "51-200",
@@ -68,7 +68,7 @@ export const intake = {
   data: {
     location:
       "Order and production data lives in NetSuite. Customer/quote data lives in HubSpot. Press-run scheduling is a shared spreadsheet nobody trusts.",
-    owner: "Ops manager (Priya Shah) owns NetSuite exports; David owns HubSpot.",
+    owner: "Ops manager (Sam Okafor) owns NetSuite exports; Dana owns HubSpot.",
     state: "Usable but messy",
     technicalContact: "Yes, named person",
   },
@@ -84,16 +84,16 @@ export const intake = {
     timeline: "This quarter",
     confidence: "4",
   },
-  decisionProcess: "David Baker (Ops Director) and Priya Shah (Ops Manager) decide together; David has final sign-off. Both on the fit call.",
+  decisionProcess: "Dana Whitfield (Ops Director) and Sam Okafor (Ops Manager) decide together; Dana has final sign-off. Both on the fit call.",
 };
 
 // --- Files ---
 
 export const files = [
-  { name: "netsuite_orders_export.csv", type: "CSV", uploadedBy: "Priya Shah", date: "Sep 8, 2026", status: "Reviewed" as const },
-  { name: "hubspot_crm_fields.csv", type: "CSV", uploadedBy: "David Baker", date: "Sep 9, 2026", status: "Reviewed" as const },
-  { name: "cleanmark_org_chart.pdf", type: "PDF", uploadedBy: "David Baker", date: "Sep 9, 2026", status: "Received" as const },
-  { name: "press_schedule_current.xlsx", type: "XLSX", uploadedBy: "Priya Shah", date: "Sep 10, 2026", status: "Received" as const },
+  { name: "netsuite_orders_export.csv", type: "CSV", uploadedBy: "Sam Okafor", date: "Sep 8, 2026", status: "Reviewed" as const },
+  { name: "hubspot_crm_fields.csv", type: "CSV", uploadedBy: "Dana Whitfield", date: "Sep 9, 2026", status: "Reviewed" as const },
+  { name: "northwind_org_chart.pdf", type: "PDF", uploadedBy: "Dana Whitfield", date: "Sep 9, 2026", status: "Received" as const },
+  { name: "press_schedule_current.xlsx", type: "XLSX", uploadedBy: "Sam Okafor", date: "Sep 10, 2026", status: "Received" as const },
 ];
 
 // --- Progress ---
@@ -129,7 +129,7 @@ export const statusReports = [
       "Draft opportunity matrix candidates",
     ],
     blockers: [
-      { blocker: "Read-only ERP access not yet granted", needed: "NetSuite sandbox login", from: "Priya Shah", by: "Sep 15, 2026" },
+      { blocker: "Read-only ERP access not yet granted", needed: "NetSuite sandbox login", from: "Sam Okafor", by: "Sep 15, 2026" },
     ],
     decisions: [
       { decision: "Scope press-changeover rules into v1 or defer", options: "Include now / defer to build phase", recommendation: "Defer — keep discovery scope tight", neededBy: "Sep 18, 2026" },
@@ -154,14 +154,14 @@ export const decisions = [
     date: "Sep 10, 2026",
     decision: "Defer press-changeover rules to build phase",
     options: "Include in discovery scope / defer to build phase",
-    decidedBy: "David Baker",
+    decidedBy: "Dana Whitfield",
     status: "Decided" as const,
   },
   {
     date: "Sep 5, 2026",
     decision: "Use NetSuite sandbox, not production, for all discovery work",
     options: "Production read access / sandbox only",
-    decidedBy: "David Baker, Priya Shah",
+    decidedBy: "Dana Whitfield, Sam Okafor",
     status: "Decided" as const,
   },
   {

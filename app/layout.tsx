@@ -15,9 +15,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Valentino Intelligence",
+  metadataBase: new URL("https://valentino-intelligence-site.vercel.app"),
+  title: "Valentino Intelligence · AI and automation for owner-led businesses",
   description:
-    "AI and automation for small businesses. I build the systems that do your busywork; you keep approving.",
+    "I turn the data and busywork in your business into systems that run on their own. You keep approving.",
+  openGraph: {
+    title: "Valentino Intelligence",
+    description:
+      "AI and automation for owner-led businesses. Systems that run on their own; you keep approving.",
+    url: "/",
+    siteName: "Valentino Intelligence",
+    type: "website",
+  },
+  twitter: { card: "summary_large_image" },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

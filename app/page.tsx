@@ -9,11 +9,11 @@ const mono = "font-mono text-small text-muted tracking-tight";
 const built: [string, string][] = [
   [
     "Social posts, from photo to published",
-    "Photos dropped in a shared folder come back as drafted posts. The owner taps approve in Slack and they go to Facebook and Instagram.",
+    "Photos dropped in a shared folder come back as drafted posts. You tap approve in Slack and they go to Facebook and Instagram.",
   ],
   [
     "Payroll prep, down to a review",
-    "Hours from the point-of-sale system land in the payroll spreadsheet on their own. The owner checks it instead of building it.",
+    "Hours from the point-of-sale system land in the payroll spreadsheet on their own. You check it instead of building it.",
   ],
   [
     "An expense dashboard that rebuilds itself",
@@ -25,7 +25,7 @@ const built: [string, string][] = [
   ],
   [
     "A calculator that helps close the sale",
-    "Prospects enter their numbers and see cost of ownership and payback. Used at three trade shows. Helped close two sales of about $1 million each.",
+    "Prospects enter their numbers and see cost of ownership and payback. Built for a fire-gear equipment maker and used at three industry conferences.",
   ],
   [
     "Blog posts, from spreadsheet row to live",
@@ -35,7 +35,7 @@ const built: [string, string][] = [
 
 const steps: [string, string][] = [
   ["Fit call", "Thirty minutes. You tell me the one thing you’d like to stop doing by hand."],
-  ["Two-week plan", "I look at how the work gets done today and hand you a short list of what’s worth automating first."],
+  ["Two-week plan", "I look at how the work gets done today and hand you a ranked short list of what’s worth automating first, with what each one saves and what it costs to run."],
   [
     "Build, handover, and support",
     "I build it. Someone on your team approves it before it goes live. When it’s done, you own it, and a job you used to do by hand now runs on autopilot. You decide whether I stay on for enhancements and the next thing.",
@@ -53,10 +53,10 @@ export default function Home() {
       <main className="flex flex-col gap-16 py-10 sm:gap-24 sm:py-16">
         <section className="flex flex-col gap-5">
           <h1 className="font-display text-h1 font-semibold tracking-tight sm:text-h1-lg">
-            I build the systems that do your busywork.
+            I turn the data and busywork in your business into systems that run on their own.
           </h1>
           <p className="text-lg">
-            AI and automation for small businesses. You keep approving; the
+            AI and automation for owner-led businesses. You keep approving; the
             copying, retyping, and chasing stop.
           </p>
           <p>
@@ -93,6 +93,19 @@ export default function Home() {
         </section>
 
         <section className="flex flex-col gap-3">
+          <h2 className={h2}>Who you’d be working with</h2>
+          <p>
+            Liana Valentino. Portland, Oregon. Ten years building data and AI
+            systems at Nike and Microsoft, now working directly with owners.
+          </p>
+          <p className={small}>
+            Recent work: a family restaurant in South Carolina, a fire-gear
+            decontamination company, a public-safety software firm, and a label
+            manufacturer in Portland.
+          </p>
+        </section>
+
+        <section className="flex flex-col gap-3">
           <h2 className={h2}>Start with an email</h2>
           <p>
             Tell me what you&rsquo;d like to stop doing by hand.{" "}
@@ -108,9 +121,6 @@ export default function Home() {
         <span className="flex gap-5">
           <a href="https://linkedin.com/in/lianavalentino" className={link}>
             LinkedIn
-          </a>
-          <a href="/portal" className={link}>
-            Client portal preview
           </a>
         </span>
       </footer>

@@ -1,7 +1,7 @@
 # Client portal — prototype
 
-Clickable mockup of a client portal, built for a fictional client ("CleanMark Labels", contact
-David Baker) to show what a real portal on this site would look like. Static, hardcoded sample
+Clickable mockup of a client portal, built for a fictional client ("Northwind Labels", contact
+Dana Whitfield) to show what a real portal on this site would look like. Static, hardcoded sample
 data — no auth, no backend, no persistence. Every screen carries a "Prototype — sample data"
 badge.
 
