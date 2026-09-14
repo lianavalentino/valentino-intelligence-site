@@ -28,7 +28,7 @@ Lately that's meant a family restaurant in South Carolina, a fire-gear decontami
 Tell me what you'd like to stop doing by hand. valentinointelligence@gmail.com
 
 ## Footer
-Valentino Intelligence LLC · LinkedIn (portal preview link removed 2026-09-14; /portal route still exists, sample client is fictional "Northwind Labels")
+Valentino Intelligence LLC · LinkedIn (portal preview link and /portal route removed 2026-09-14; client portal is Notion)
 
 ## Facts behind the cards
 Social → Italian Bistro social pipeline. Payroll → Italian Bistro Shift4→iSolved. Dashboard → Italian Bistro expense pipeline. Slack Q&A → Italian Bistro sales MCP / ops bots. Calculator → ETD Enertia ROI calculator (three conferences, two ~$1M sales; career-ops KB C-0060). Blog → Emergent Content Hub / content-operator.

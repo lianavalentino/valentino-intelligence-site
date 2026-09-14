@@ -10,7 +10,7 @@
 
 **Source of truth for copy and positioning:**
 - `.agents/product-marketing.md` — positioning, customer language, words to avoid, proof guardrails. Other marketing skills read this.
-- `docs/offer.md` — the Two-Week Automation Plan offer (guarantee, bonuses, price, scarcity rule) and site copy.
+- Offer + pricing: `business/marketing/offer.md` (canonical). `docs/offer.md` is a pointer.
 - `docs/design-plan.md` — tokens, fonts, layout, banned visual traits.
 - `content/portfolio-content.md` — case-study facts and the "Do not publish" list.
 
