@@ -96,9 +96,10 @@ export default function Home() {
           <h2 className={h2}>Who you’d be working with</h2>
           <p>
             I’m Liana. I spent ten years building data and AI systems at Nike
-            and Microsoft, and I grew up in a family that runs restaurants, so I
-            know what it’s like when the owner is also the office. Now I work
-            directly with owners, one project at a time, from Portland, Oregon.
+            and Microsoft. I also come from a family of small business owners,
+            so I know what it’s like when the owner is also the office. I work
+            directly with owners, one project at a time. Based in Portland,
+            Oregon, working with businesses anywhere.
           </p>
           <p className={small}>
             Lately that’s meant a family restaurant in South Carolina, a
