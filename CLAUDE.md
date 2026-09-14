@@ -16,7 +16,7 @@
 
 **Constraints:** no client credentials, PII, or internal process detail. Case-study facts must match `~/Developer/career-ops/knowledge-base/03 Project Portfolio.md`. Never invent outcome numbers (restaurant engagement has none). No technical vocabulary on the page (agents, pipelines, n8n, LLM, stack). "Next open start" line on the offer must be kept honest — update it when a plan is booked.
 
-**Where this connects:** nothing. Standalone. Domain valentinointelligence.com (Cloudflare) not yet pointed. No booking link yet — CTA is mailto.
+**Where this connects:** nothing. Standalone. Vercel Analytics on. Security headers in `next.config.ts`. valentinointelligence.com and www are attached to the Vercel project (2026-09-14) but DNS isn't pointed yet: both need a DNS-only CNAME in Cloudflare to the value `vercel domains verify valentinointelligence.com` prints. After it resolves, set `metadataBase` in `app/layout.tsx`. No booking link yet (no Cal.com account); CTA is mailto.
 
 <!-- BEGIN:nextjs-agent-rules -->
 
