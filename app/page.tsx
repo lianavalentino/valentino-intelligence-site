@@ -95,13 +95,15 @@ export default function Home() {
         <section className="flex flex-col gap-3">
           <h2 className={h2}>Who you’d be working with</h2>
           <p>
-            Liana Valentino. Portland, Oregon. Ten years building data and AI
-            systems at Nike and Microsoft, now working directly with owners.
+            I’m Liana. I spent ten years building data and AI systems at Nike
+            and Microsoft, and I grew up in a family that runs restaurants, so I
+            know what it’s like when the owner is also the office. Now I work
+            directly with owners, one project at a time, from Portland, Oregon.
           </p>
           <p className={small}>
-            Recent work: a family restaurant in South Carolina, a fire-gear
-            decontamination company, a public-safety software firm, and a label
-            manufacturer in Portland.
+            Lately that’s meant a family restaurant in South Carolina, a
+            fire-gear decontamination company, a public-safety software firm, and
+            a label manufacturer here in Portland.
           </p>
         </section>
 

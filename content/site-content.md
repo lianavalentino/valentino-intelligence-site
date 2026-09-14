@@ -21,8 +21,8 @@ valentinointelligence@gmail.com
 3. **Build, handover, and support.** I build it. Someone on your team approves it before it goes live. When it's done, you own it, and a job you used to do by hand now runs on autopilot. You decide whether I stay on for enhancements and the next thing.
 
 ## Who you'd be working with
-Liana Valentino. Portland, Oregon. Ten years building data and AI systems at Nike and Microsoft, now working directly with owners.
-Recent work: a family restaurant in South Carolina, a fire-gear decontamination company, a public-safety software firm, and a label manufacturer in Portland.
+I'm Liana. I spent ten years building data and AI systems at Nike and Microsoft, and I grew up in a family that runs restaurants, so I know what it's like when the owner is also the office. Now I work directly with owners, one project at a time, from Portland, Oregon.
+Lately that's meant a family restaurant in South Carolina, a fire-gear decontamination company, a public-safety software firm, and a label manufacturer here in Portland.
 
 ## Start with an email
 Tell me what you'd like to stop doing by hand. valentinointelligence@gmail.com
