@@ -47,7 +47,7 @@ export default function Home() {
     <div className="mx-auto max-w-[44rem] px-5 sm:px-8">
       <header className="flex items-baseline justify-between gap-4 py-6">
         <p className="font-display text-h3 font-semibold">Valentino Intelligence</p>
-        <p className={`${mono} shrink-0`}>Portland, Oregon</p>
+        <p className={`${mono} shrink-0`}>Beaverton, Oregon</p>
       </header>
 
       <main className="flex flex-col gap-16 py-10 sm:gap-24 sm:py-16">
@@ -98,13 +98,13 @@ export default function Home() {
             I’m Liana. I spent ten years building data and AI systems at Nike
             and Microsoft. I also come from a family of small business owners,
             so I know what it’s like when the owner is also the office. I work
-            directly with owners, one project at a time. Based in Portland,
-            Oregon, working with businesses anywhere.
+            directly with owners, one project at a time. Based in
+            Beaverton, Oregon, working with businesses anywhere.
           </p>
           <p className={small}>
             Lately that’s meant a family restaurant in South Carolina, a
             fire-gear decontamination company, a public-safety software firm, and
-            a label manufacturer here in Portland.
+            a label manufacturer nearby.
           </p>
         </section>
 

@@ -25,7 +25,7 @@ export default function Image() {
         <div style={{ fontSize: 64, fontWeight: 600, lineHeight: 1.1, maxWidth: 1000 }}>
           I turn the data and busywork in your business into systems that run on their own.
         </div>
-        <div style={{ fontSize: 28, color: "#5b5f6a" }}>Liana Valentino · Portland, Oregon</div>
+        <div style={{ fontSize: 28, color: "#5b5f6a" }}>Liana Valentino · Beaverton, Oregon</div>
       </div>
     ),
     size,
